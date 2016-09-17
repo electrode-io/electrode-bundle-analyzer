@@ -1,0 +1,31 @@
+{
+  "name": "electrode-bundle-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/analyze-bundle.js",
+  "scripts": {
+  },
+  "bin": {
+    "analyze-bundle": "./lib/analyze-bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electrode-io/electrode-bundle-analyzer.git"
+  },
+  "keywords": [
+    "webpack",
+    "bundle",
+    "analyze"
+  ],
+  "author": "Joel Chen <xchen@walmartlabs.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electrode-archetype-njs-module-dev": "^1.1.0"
+  },
+  "dependencies": {
+    "acorn": "^4.0.3",
+    "lodash": "^4.15.0",
+    "mkdirp": "^0.5.1",
+    "yargs": "^5.0.0"
+  }
+}
