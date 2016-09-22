@@ -1,5 +1,7 @@
 # Electrode Bundle Analyzer
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 A [webpack] bundle analyzer that gives you a detail list of all the files that went into your deduped and minified bundle JS file.
 
 If you use [webpack] to bundle your code and apply all the optimization to your production bundle output, then you get a very compact JS file that's impossible to read.
@@ -126,3 +128,9 @@ TBD: We plan to add more feature to generate a summary report from the analyze r
 [webpack]: https://webpack.github.io/
 [UglifyJsPlugin]: https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
 [webpack-stats-plugin]: https://github.com/FormidableLabs/webpack-stats-plugin
+[npm-image]: https://badge.fury.io/js/electrode-bundle-analyzer.svg
+[npm-url]: https://npmjs.org/package/electrode-bundle-analyzer
+[travis-image]: https://travis-ci.org/electrode-io/electrode-bundle-analyzer.svg?branch=master
+[travis-url]: https://travis-ci.org/electrode-io/electrode-bundle-analyzer
+[daviddm-image]: https://david-dm.org/electrode-io/electrode-bundle-analyzer.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/electrode-io/electrode-bundle-analyzer
