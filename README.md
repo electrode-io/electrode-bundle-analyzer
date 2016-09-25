@@ -7,7 +7,7 @@ A [webpack] bundle analyzer that gives you a detail list of all the files that w
 If you use [webpack] to bundle your code and apply all the optimization to your production bundle output, then you get a very compact JS file that's impossible to read.
 
 Do you wish you can get a list of what files made their way into that bundle after all the optimizations have been applied?  Well, this module will make your wish come true.
- 
+
 ## Install
 
 ```bash
@@ -124,6 +124,8 @@ The `~` is a replacement for `node_modules`.
 The best way to make use of the result is to import the `tsv` file into a spreadsheet and sort the `Identity Path` column.  Any duplicate entries there means you are pulling multiple versions of the same module into your bundle.
 
 TBD: We plan to add more feature to generate a summary report from the analyze results.
+
+Built with :heart: by [Team Electrode](https://github.com/orgs/electrode-io/people) @WalmartLabs.
 
 [webpack]: https://webpack.github.io/
 [UglifyJsPlugin]: https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
