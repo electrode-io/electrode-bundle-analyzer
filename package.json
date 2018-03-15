@@ -1,10 +1,9 @@
 {
   "name": "electrode-bundle-analyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/analyze-bundle.js",
-  "scripts": {
-  },
+  "scripts": {},
   "bin": {
     "analyze-bundle": "./lib/analyze-bundle.js"
   },
